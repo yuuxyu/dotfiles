@@ -32,4 +32,4 @@
 [core]
 	autocrlf = false
 [ghq]
-	root = /home/yuyu/go
+	root = /home/yuyu/go/src

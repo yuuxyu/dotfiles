@@ -34,3 +34,7 @@ hl.unbind("SUPER + O")
 o.bind("SUPER + O", "Pop window out (float & pin)", "omarchy-hyprland-window-pop 1000 650")
 
 o.bind("SUPER + SHIFT + J", "Mozc dictionary tool", "/usr/lib/mozc/mozc_tool --mode=dictionary_tool")
+
+-- SUPER+SHIFT+S: screenshot (was: Google Maps webapp)
+hl.unbind("SUPER + SHIFT + S")
+o.bind("SUPER + SHIFT + S", "Screenshot", "omarchy-capture-screenshot")
